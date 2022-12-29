@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <style>
+ 
+        /*body color and margin */
+         
+        body {
+            background-color: #000000;
+            margin: 5%;
+        }
+ 
+        /* Title and giving shadow to the title */
+        #title {
+            
+            text-align: center;
+            text-shadow: 5px 5px 10px rgb(0, 0, 0);
+            font-size: 10vh;
+            font-family:'Times New Roman', Times, serif
+            
+        }
+ 
+        /* Setting width and display type of image */
+        img {
+            
+            display: block;
+           margin-left: auto;
+          margin-right: auto;
+            width: 25%;
+            
+            
+        }
+ 
+        /* Setting font color and font size of the image-caption */
+        #caption {
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+            color: rgb(255, 255, 255);
+            text-align: justify;
+            font-style: italic;
+        }
+ 
+        /* Styling the content of the page */
+        div#tribute-data {
+            font-size: 30px;
+            background-color: rgba(0, 0, 0, 0.25);
+            box-shadow: 10px 10px 10px #fefefe;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            color: rgb(255, 255, 255);
+            
+        }
+ 
+        /* Styling the title of the content */
+        h1.title {
+            font-size: 35px;
+            color: white;
+            text-align: left;
+            
+        }
+ 
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoration: none;
+            color: rgb(43, 14, 209);
+        }
+    </style>
+</head>
+ 
+<body>
+    <main id="main">
+ 
+        <!-- Title of the page -->
+        <h1 id="title">
+            <font color=white>
+            PRINCESS DIANA
+            </font>
+        </h1>
+ 
+        <div id="img">
+ 
+            <!--Image of the Tribute Person-->
+            <centre><img src="princess_diana.jpg" id="image"
+                alt="Error Loading Image"></centre>
+            <small id="caption">
+                THE PEOPLE'S PRINCESS
+            </small>
+        </div>
+ 
+        <div id="tribute-data">
+ 
+            <h1 class="title">
+                About:
+            </h1>
+ 
+             
+ 
+<p>  <font color=white>
+                 *Diana, Princess of Wales was a member of the British royal family.
+                <br><br>
+                *She was the first wife of King Charles III and mother of Princes William and Harry. 
+                 <br><br>
+                 *Her activism and glamour made her an international icon, 
+                and earned her enduring popularity, as well as almost unprecedented public scrutiny.
+                 <br><br>
+                 *Diana was born into the British nobility, and grew up close to the royal family on their Sandringham estate.
+                <br><br> 
+                *In 1981, while working as a nursery teacher's assistant, she became engaged to the Prince of Wales, the eldest son of Queen Elizabeth II. 
+                Their wedding took place at St Paul's Cathedral in 1981 and made her Princess of Wales.
+                <br><br>
+                *Diana undertook royal duties on behalf of the Queen and represented her at functions across the Commonwealth realms.
+                <br><br> 
+                
+                *She was celebrated in the media for her unconventional approach to charity work. Her patronages initially centred on
+                   children and the elderly, but she later became known for her involvement in two particular campaigns: one involved
+                  the social attitudes towards and the acceptance of AIDS patients, and the other for the removal of landmines,
+                   promoted through the International Red Cross. 
+                <br><br>
+                *She also raised awareness and advocated for ways to help people affected by cancer and mental illness.
+                <br><br>
+                
+                *Considered photogenic, she was a leader of fashion in the 1980s and 1990s.
+                <br><br> 
+                         
+            
+                *Diana's death in a car crash in Paris in 1997 led to extensive public mourning and global media attention. 
+                Her legacy has had a deep impact on the royal family and British society.
+                <br><br> 
+                
+                
+
+
+            </font>
+            </p>
+        
+ 
+        </div>
+        <br>
+        <font color=white>
+            For more information,
+            check out
+        </font>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Diana,_Princess_of_Wales" target="_blank">
+            <b>PRINCESS DIANA</b> on Wikipedia.
+           
+      
+    </main>
+</body>
+ 
+</html>
